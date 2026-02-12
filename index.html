@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Siddhant — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="card" id="profileCard" aria-label="Profile card">
+        <!-- Replace with your image file path -->
+        <img class="photo" src="assets/me.jpg" alt="Photo of Siddhant" />
+
+        <!-- Hover/tap overlay -->
+        <div class="overlay" role="dialog" aria-label="Credentials overlay">
+          <div class="overlay-inner">
+            <div class="top">
+              <h1>Siddhant</h1>
+              <p class="subtitle">Master’s in Finance • Sydney</p>
+            </div>
+
+            <div class="grid">
+              <div class="block">
+                <h2>Qualifications</h2>
+                <ul>
+                  <li>Master’s in Finance — <span class="muted">University Name</span></li>
+                  <li>Bachelor’s — <span class="muted">Your Degree</span></li>
+                </ul>
+              </div>
+
+              <div class="block">
+                <h2>Contacts</h2>
+                <ul>
+                  <li>Email: <a href="mailto:you@email.com">you@email.com</a></li>
+                  <li>Phone: <a href="tel:+61XXXXXXXXX">+61 XXXXX XXX</a></li>
+                  <li>LinkedIn: <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noreferrer">/in/yourhandle</a></li>
+                </ul>
+              </div>
+
+              <div class="block">
+                <h2>Degree</h2>
+                <p class="muted">Add a 1–2 line summary of what you’re focusing on (e.g., corporate finance, analytics, valuation).</p>
+              </div>
+
+              <div class="block">
+                <h2>Resume</h2>
+                <p>
+                  <a class="btn" href="assets/Siddhant_Resume.pdf" target="_blank" rel="noreferrer">
+                    View Resume (PDF)
+                  </a>
+                  <a class="btn ghost" href="assets/Siddhant_Resume.pdf" download>
+                    Download
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <p class="hint">Tip: hover to view • tap on mobile</p>
+          </div>
+        </div>
+
+        <button class="tap-toggle" id="tapToggle" aria-label="Toggle credentials">
+          View credentials
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
